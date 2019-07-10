@@ -87,6 +87,21 @@ item.winnetriesexpansionmod:invar_gear.name=Invar Gear
 item.winnetriesexpansionmod:lead_gear.name=Lead Gear
 item.winnetriesexpansionmod:aluminum_gear.name=Aluminum Gear
 
+item.winnetriesexpansionmod:apple_juice_bottle.name=Apple Juice
+item.winnetriesexpansionmod:carrot_juice_bottle.name=Carrot Juice
+item.winnetriesexpansionmod:chorusfruit_juice_bottle.name=Chorusfruit Juice
+item.winnetriesexpansionmod:melon_juice_bottle.name=Melon Juice
+item.winnetriesexpansionmod:cactus_juice_bottle.name=Cactus Juice
+item.winnetriesexpansionmod:pumkin_juice_bottle.name=Pumpkin Juice
+item.winnetriesexpansionmod:lemon_juice_bottle.name=Lemon Juice
+item.winnetriesexpansionmod:plum_juice_bottle.name=Plum Juice
+item.winnetriesexpansionmod:cherry_juice_bottle.name=Cherry Juice
+item.winnetriesexpansionmod:tropical_juice_bottle.name=Tropical Juice
+item.winnetriesexpansionmod:beetroot_juice_bottle.name=Beetroot Juice
+item.winnetriesexpansionmod:apple_cider_bottle.name=Apple Cider
+item.winnetriesexpansionmod:plum_wine_bottle.name=Plum Wine
+item.winnetriesexpansionmod:chocolate_milk_bottle.name=Chocolate Milk
+
 
 ///////////////fluids/////////////////////////
 
@@ -133,6 +148,22 @@ tile.plum_juice.name=Plum Juice
 tile.chocolate_milk.name=Chocolate Milk
 tile.plum_wine.name=Plum Wine
 tile.apple_cider.name=Apple Cider
+
+
+
+
+///////////////Item Overrides///////////////
+item.minecraft:wooden_hoe.name=Wooden Hoe
+item.minecraft:wooden_shovel.name=Wooden Shovel
+item.minecraft:wooden_axe.name=Wooden Axe
+item.minecraft:wooden_pickaxe.name=Wooden Pickaxe 
+item.minecraft:wooden_sword.name=Wooden Sword
+
+item.minecraft:stone_hoe.name=Stone Hoe
+item.minecraft:stone_shovel.name=Stone Shovel
+item.minecraft:stone_axe.name=Stone Axe
+item.minecraft:stone_pickaxe.name=Stone Pickaxe 
+item.minecraft:stone_sword.name=Stone Sword
 
 ///////////////blocks///////////////////////////
 
