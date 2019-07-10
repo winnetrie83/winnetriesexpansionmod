@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AA",
+
+    "AA"  ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:black_brick",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:black_bricks",
+    "count": 1,
+
+    "data": 0
+
+  }
+
+}

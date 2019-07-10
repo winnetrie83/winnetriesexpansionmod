@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "A  ",
+    "AA ",
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:concrete",
+
+        "data": 14
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:red_concrete_stairs",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AAA",
+
+    "AAA"  ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:lime_bricks",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:lime_bricks_wall",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

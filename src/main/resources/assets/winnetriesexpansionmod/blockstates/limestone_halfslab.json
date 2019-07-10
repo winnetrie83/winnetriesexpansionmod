@@ -1,0 +1,40 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        
+        "textures": {
+            "top": "winnetriesexpansionmod:blocks/limestone_smooth_top",
+            "side": "winnetriesexpansionmod:blocks/limestone_smooth_side",
+            "bottom": "winnetriesexpansionmod:blocks/limestone_raw"
+        }
+    },
+    "variants": {
+        
+        "half": {
+            "bottom": {
+                "model": "minecraft:half_slab"
+            },
+            "top": {
+                "model": "minecraft:upper_slab"
+            }
+        },
+        "variant": {
+            "default": {
+                "textures": {
+                    "top": "winnetriesexpansionmod:blocks/limestone_smooth_top",
+                    "side": "winnetriesexpansionmod:blocks/limestone_smooth_side",
+                    "bottom": "winnetriesexpansionmod:blocks/limestone_raw"
+                }
+            }
+        },
+        "normal": {
+            "model": "minecraft:half_slab",
+            "textures": {
+                "top": "winnetriesexpansionmod:blocks/limestone_smooth_top",
+                "side": "winnetriesexpansionmod:blocks/limestone_smooth_side",
+                "bottom": "winnetriesexpansionmod:blocks/limestone_raw"
+            }
+        }
+        
+    }
+}

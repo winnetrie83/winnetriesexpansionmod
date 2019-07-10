@@ -1,0 +1,34 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:lightblue_bricks",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:lightblue_bricks_halfslab",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

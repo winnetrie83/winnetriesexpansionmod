@@ -1,0 +1,45 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    
+    "AB" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:limestone_brick",
+
+        "data": 0
+
+      }
+
+    ],
+	
+	"B": [
+
+      {
+
+        "type": "forge:ore_dict",
+
+        "ore": "vine"
+
+      }
+	]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:limestone_mossy_brick",
+    "count": 1,
+
+    "data": 0
+
+  }
+
+}

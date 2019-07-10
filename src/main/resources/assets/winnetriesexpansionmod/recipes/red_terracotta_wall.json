@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    
+    "AAA",
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:stained_hardened_clay",
+
+        "data": 14
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:red_terracotta_wall",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

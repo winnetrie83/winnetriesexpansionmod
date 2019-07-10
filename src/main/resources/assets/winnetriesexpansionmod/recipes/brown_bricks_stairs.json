@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "A  ",
+    "AA ",
+    "AAA"  ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:brown_bricks",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:brown_bricks_stairs",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

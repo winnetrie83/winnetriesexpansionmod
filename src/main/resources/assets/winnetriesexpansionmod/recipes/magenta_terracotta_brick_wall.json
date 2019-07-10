@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    
+    "AAA",
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:magenta_terracotta_brick",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:magenta_terracotta_brick_wall",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

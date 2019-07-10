@@ -1,0 +1,14 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "minecraft:cube_all",
+        "textures": {
+            "all": "winnetriesexpansionmod:blocks/bronze_block"
+        }
+    },
+    "variants": {
+        "normal": [{
+            "model": "minecraft:cube_all"
+        }]
+    }
+}

@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "A  ",
+    "AA ",
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:stained_hardened_clay",
+
+        "data": 15
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:black_terracotta_stairs",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

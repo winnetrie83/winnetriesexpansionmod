@@ -1,0 +1,50 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AAA",
+
+    "ABA",
+
+    "AAA"  ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:clay_ball",
+
+        "data": 0
+
+      }
+
+    ],
+    
+    "B": [
+
+      {
+
+        "type": "forge:ore_dict",
+        "ore": "dyeBlue"
+        
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:blue_stained_clayball",
+    "count": 8,
+
+    "data": 0
+
+  }
+
+}

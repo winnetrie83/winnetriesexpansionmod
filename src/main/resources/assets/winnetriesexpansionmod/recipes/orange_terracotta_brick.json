@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    
+    "AA",
+    "AA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:stained_hardened_clay",
+
+        "data": 1
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:orange_terracotta_brick",
+    "count": 4,
+
+    "data": 0
+
+  }
+
+}

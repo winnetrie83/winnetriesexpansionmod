@@ -1,0 +1,45 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AA",
+    "B "	],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:clay",
+
+        "data": 0
+
+      }
+
+    ],
+	"B": [
+
+      {
+
+        "type": "forge:ore_dict",
+        "ore": "dyeLightGray"
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:silver_stained_clay",
+    "count": 2,
+
+    "data": 0
+
+  }
+
+}

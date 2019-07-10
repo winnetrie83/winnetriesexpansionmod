@@ -1,0 +1,35 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AA",
+    "AA"	],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:blue_stained_clayball",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:blue_stained_clay",
+    "count": 1,
+
+    "data": 0
+
+  }
+
+}

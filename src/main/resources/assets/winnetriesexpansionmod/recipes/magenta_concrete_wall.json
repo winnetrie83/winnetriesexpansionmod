@@ -1,0 +1,36 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    
+    "AAA",
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:concrete",
+
+        "data": 2
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:magenta_concrete_wall",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

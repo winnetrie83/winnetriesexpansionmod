@@ -1,0 +1,34 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "minecraft:concrete",
+
+        "data": 15
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:black_concrete_halfslab",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

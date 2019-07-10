@@ -1,0 +1,37 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "A  ",
+    "AA ",
+
+    "AAA"  ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:pink_bricks",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:pink_bricks_stairs",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

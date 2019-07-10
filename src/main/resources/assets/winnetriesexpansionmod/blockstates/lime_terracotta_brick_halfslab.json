@@ -1,0 +1,37 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "top": "#all",
+            "bottom": "#all",
+            "side": "#all"
+        }
+    },
+    "variants": {
+        
+        "half": {
+            "bottom": {
+                "model": "minecraft:half_slab"
+            },
+            "top": {
+                "model": "minecraft:upper_slab"
+            }
+        },
+        
+
+        "variant": {
+            "default": {
+                "textures": {
+                    "all": "winnetriesexpansionmod:blocks/lime_brick"
+                }
+            }
+        },
+        "normal": {
+            "model": "minecraft:half_slab",
+            "textures": {
+                "all": "winnetriesexpansionmod:blocks/lime_brick"
+            }
+        }
+        
+    }
+}

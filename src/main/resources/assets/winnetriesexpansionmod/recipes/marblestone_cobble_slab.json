@@ -1,0 +1,34 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:marblestone_cobble",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:marblestone_cobble_halfslab",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

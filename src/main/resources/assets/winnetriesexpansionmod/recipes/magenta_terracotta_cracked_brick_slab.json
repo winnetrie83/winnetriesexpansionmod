@@ -1,0 +1,34 @@
+{ 
+
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+
+    "AAA" ],
+
+  "key": {
+
+    "A": [
+
+      {
+
+        "item": "winnetriesexpansionmod:magenta_terracotta_cracked_brick",
+
+        "data": 0
+
+      }
+
+    ]
+
+  },
+
+  "result": {
+
+    "item": "winnetriesexpansionmod:magenta_terracotta_cracked_brick_halfslab",
+    "count": 6,
+
+    "data": 0
+
+  }
+
+}

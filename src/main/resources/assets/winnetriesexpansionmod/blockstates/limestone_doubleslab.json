@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "minecraft:cube_bottom_top"
+    },
+    "variants": {
+        "variant": {
+        
+            "default": {
+                "textures": {
+                    "top": "winnetriesexpansionmod:blocks/limestone_smooth_top",
+                    "bottom": "winnetriesexpansionmod:blocks/limestone_raw",
+                    "side": "winnetriesexpansionmod:blocks/limestone_smooth_side"
+                }
+            }
+        }
+        
+    }
+}

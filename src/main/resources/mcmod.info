@@ -1,0 +1,12 @@
+[{
+  "modid": "winnetriesexpansionMod",
+  "name": "Winnetrie's Expansion Mod",
+  "description": "Expanding your minecraft experience!",
+  "version": "1.12.2-4.0.2.0",
+  "mcversion": "1.12.2",
+  "logoFile": "assets/winnetriesexpansionmod/textures/youtube_logo_small.png",
+  "url": "https://minecraft.curseforge.com/projects/winnetries-expansion-mod",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["Winnetrie"],
+  "credits": "Mojang, Forge Community, The ImmersiveEngineering Team for the amazing textures."
+}]
