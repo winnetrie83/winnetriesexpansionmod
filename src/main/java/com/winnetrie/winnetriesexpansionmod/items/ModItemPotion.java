@@ -16,7 +16,9 @@ import net.minecraft.init.Items;
 import net.minecraft.init.PotionTypes;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemPotion;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.PotionType;
@@ -34,14 +36,28 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModItemPotion extends Item{
 	
-	public ModItemPotion(ResourceLocation registryname) {
+	public String NBTliquid;
+	
+	public ModItemPotion(ResourceLocation registryname, String liquid) {
+		
+		
 		
 		setUnlocalizedName(registryname.toString());
 		setRegistryName(registryname);
 		setCreativeTab(Utilities.WINNETRIESEXPANSIONMOD);
+		this.setMaxStackSize(1);
+		NBTliquid = liquid;
 		
 	}
-	
+	@Override
+	public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+		
+		NBTTagCompound nbt = stack.getTagCompound();
+		if (nbt == null) {nbt = new NBTTagCompound();}
+		nbt.setString("FluidName", NBTliquid);
+		nbt.setInteger("Amount", 500);
+		stack.setTagCompound(nbt);
+	}
 	@Override
 	public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
     {

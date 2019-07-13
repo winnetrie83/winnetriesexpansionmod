@@ -1,3 +1,10 @@
+/////////////special text////////
+
+winnetriesexpansionmod.useless=%1$sThis is an artefact%2$s
+winnetriesexpansionmod.decoration=%1$sFor decoration use only%2$s
+
+
+
 itemGroup.winnetriesexpansionmod:creativetab=Expansionmod
 
 
@@ -40,6 +47,8 @@ item.winnetriesexpansionmod:clay_bucket.name=Clay Bucket
 item.winnetriesexpansionmod:terracotta_bucket.name=Terracotta Bucket
 item.winnetriesexpansionmod:terracotta_bucket_water.name=Terracotta Water Bucket
 item.winnetriesexpansionmod:terracotta_bucket_lava.name=Terracotta Lava Bucket
+
+item.winnetriesexpansionmod:flower_pot_uncooked.name=Clay Flower Pot
 
 item.winnetriesexpansionmod:nugget_tin.name=Tin Nugget
 item.winnetriesexpansionmod:nugget_invar.name=Invar Nugget
@@ -92,7 +101,7 @@ item.winnetriesexpansionmod:carrot_juice_bottle.name=Carrot Juice
 item.winnetriesexpansionmod:chorusfruit_juice_bottle.name=Chorusfruit Juice
 item.winnetriesexpansionmod:melon_juice_bottle.name=Melon Juice
 item.winnetriesexpansionmod:cactus_juice_bottle.name=Cactus Juice
-item.winnetriesexpansionmod:pumkin_juice_bottle.name=Pumpkin Juice
+item.winnetriesexpansionmod:pumpkin_juice_bottle.name=Pumpkin Juice
 item.winnetriesexpansionmod:lemon_juice_bottle.name=Lemon Juice
 item.winnetriesexpansionmod:plum_juice_bottle.name=Plum Juice
 item.winnetriesexpansionmod:cherry_juice_bottle.name=Cherry Juice

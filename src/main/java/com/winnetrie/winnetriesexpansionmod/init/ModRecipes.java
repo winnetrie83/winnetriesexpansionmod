@@ -1,12 +1,14 @@
 package com.winnetrie.winnetriesexpansionmod.init;
 
 import com.winnetrie.winnetriesexpansionmod.util.ModBlockReference;
+import com.winnetrie.winnetriesexpansionmod.util.ModConfig;
 import com.winnetrie.winnetriesexpansionmod.util.ModItemReference;
 import com.winnetrie.winnetriesexpansionmod.util.References;
 import com.winnetrie.winnetriesexpansionmod.util.Utilities;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -74,6 +76,12 @@ public class ModRecipes {
 		
 		GameRegistry.addSmelting(new ItemStack(ModBlockReference.marblestone_cobble), new ItemStack(ModBlockReference.marblestone), 0.1F);
 		GameRegistry.addSmelting(new ItemStack(ModBlockReference.marblestone_brick), new ItemStack(ModBlockReference.marblestone_cracked_brick), 0.1F);
+		
+		if (ModConfig.enable_terracotta_buckets==true)
+		GameRegistry.addSmelting(new ItemStack(ModItemReference.clay_bucket), new ItemStack(ModItemReference.terracotta_bucket), 0.2F);
+		
+		if (ModConfig.enable_flowerpot_uncooked==true)
+		GameRegistry.addSmelting(new ItemStack(ModItemReference.flowerpot_uncooked), new ItemStack(Items.FLOWER_POT), 0.2F);
 		
 		/*
 		GameRegistry.addSmelting(new ItemStack(ModBlockReference.demonite_brick), new ItemStack(ModBlockReference.demonite_cracked_brick), 0.1F);

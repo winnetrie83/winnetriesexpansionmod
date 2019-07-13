@@ -129,65 +129,68 @@ public class ModRegistry {
 						ModItemReference.terracotta_bucket_lava = (new ItemTerracottaBucket(new ResourceLocation(References.PREFIX + "terracotta_bucket_lava"), Blocks.FLOWING_LAVA)));
 			}
 			
+			if (ModConfig.enable_flowerpot_uncooked==true)
+				event.getRegistry().register(ModItemReference.flowerpot_uncooked = new ItemBasic(new ResourceLocation(References.PREFIX + "flower_pot_uncooked")));
+			
 			if (ModConfig.enable_bottles==true) {
 				
 				if (ModBottles.enable_apple_juice_bottle==true) {
 					
-					event.getRegistry().registerAll(ModItemReference.apple_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "apple_juice_bottle")));
+					event.getRegistry().registerAll(ModItemReference.apple_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "apple_juice_bottle"), "apple_juice"));
 				}
 				if (ModBottles.enable_beetroot_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.beetroot_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "beetroot_juice_bottle")));
+					event.getRegistry().register(ModItemReference.beetroot_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "beetroot_juice_bottle"), "beetroot_juice"));
 				}
 				if (ModBottles.enable_carrot_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.carrot_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "carrot_juice_bottle")));
+					event.getRegistry().register(ModItemReference.carrot_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "carrot_juice_bottle"), "carrot_juice"));
 				}
 				if (ModBottles.enable_melon_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.melon_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "melon_juice_bottle")));
+					event.getRegistry().register(ModItemReference.melon_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "melon_juice_bottle"), "melon_juice"));
 				}
 				if (ModBottles.enable_chorusfruit_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.chorusfruit_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "chorusfruit_juice_bottle")));
+					event.getRegistry().register(ModItemReference.chorusfruit_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "chorusfruit_juice_bottle"), "chorusfruit_juice"));
 				}
 				if (ModBottles.enable_pumpkin_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.pumpkin_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "pumpkin_juice_bottle")));
+					event.getRegistry().register(ModItemReference.pumpkin_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "pumpkin_juice_bottle"), "pumpkin_juice"));
 				}
 				if (ModBottles.enable_cactus_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.cactus_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "cactus_juice_bottle")));
+					event.getRegistry().register(ModItemReference.cactus_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "cactus_juice_bottle"), "cactus_juice"));
 				}
 				if (ModBottles.enable_lemon_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.lemon_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "lemon_juice_bottle")));
+					event.getRegistry().register(ModItemReference.lemon_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "lemon_juice_bottle"), "lemon_juice"));
 				}
 				if (ModBottles.enable_cherry_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.cherry_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "cherry_juice_bottle")));
+					event.getRegistry().register(ModItemReference.cherry_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "cherry_juice_bottle"), "cherry_juice"));
 				}
 				if (ModBottles.enable_tropical_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.tropical_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "tropical_juice_bottle")));
+					event.getRegistry().register(ModItemReference.tropical_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "tropical_juice_bottle"), "tropical_juice"));
 				}
 				if (ModBottles.enable_plum_juice_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.plum_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "plum_juice_bottle")));
+					event.getRegistry().register(ModItemReference.plum_juice = new ModItemPotion(new ResourceLocation(References.PREFIX + "plum_juice_bottle"), "plum_juice"));
 				}
 				if (ModBottles.enable_plum_wine_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.plum_wine = new ModItemPotion(new ResourceLocation(References.PREFIX + "plum_wine_bottle")));
+					event.getRegistry().register(ModItemReference.plum_wine = new ModItemPotion(new ResourceLocation(References.PREFIX + "plum_wine_bottle"), "plum_wine"));
 				}
 				if (ModBottles.enable_apple_cider_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.apple_cider = new ModItemPotion(new ResourceLocation(References.PREFIX + "apple_cider_bottle")));
+					event.getRegistry().register(ModItemReference.apple_cider = new ModItemPotion(new ResourceLocation(References.PREFIX + "apple_cider_bottle"), "apple_cider"));
 				}
 				if (ModBottles.enable_chocolate_milk_bottle==true) {
 					
-					event.getRegistry().register(ModItemReference.chocolate_milk = new ModItemPotion(new ResourceLocation(References.PREFIX + "chocolate_milk_bottle")));
+					event.getRegistry().register(ModItemReference.chocolate_milk = new ModItemPotion(new ResourceLocation(References.PREFIX + "chocolate_milk_bottle"), "chocolate_milk"));
 				}
-			
+			}
 			
 			
 			
@@ -325,7 +328,7 @@ public class ModRegistry {
 						ModItemReference.STONE_SHOVEL = new ItemDeprecate(new ResourceLocation("minecraft:stone_shovel")),
 						ModItemReference.STONE_SWORD = new ItemDeprecate(new ResourceLocation("minecraft:stone_sword")));
 			}
-		}
+		
 		
 		ItemBlock white_bricks_slab = new ItemSlab(ModBlockReference.white_bricks_halfslab, 
 				(BlockSlab)ModBlockReference.white_bricks_halfslab, 
@@ -795,7 +798,21 @@ public class ModRegistry {
 		OreDictionary.registerOre("blockBricks", new ItemStack(ModBlockReference.green_bricks));
 		OreDictionary.registerOre("blockBricks", new ItemStack(ModBlockReference.red_bricks));
 		OreDictionary.registerOre("blockBricks", new ItemStack(ModBlockReference.black_bricks));
-	
+		
+		
+		if (ModConfig.enable_tin_ore==true) 
+		OreDictionary.registerOre("oreTin", new ItemStack(ModBlockReference.tin_ore));
+		
+		if (ModConfig.enable_metal_blocks==true) {
+			if (ModMetalBlocks.enable_invar_block==true)
+				OreDictionary.registerOre("blockInvar", new ItemStack(ModBlockReference.invar_block));
+			if (ModMetalBlocks.enable_tin_block==true)
+				OreDictionary.registerOre("blockTin", new ItemStack(ModBlockReference.tin_block));
+			if (ModMetalBlocks.enable_solder_block==true)
+				OreDictionary.registerOre("blockSolder", new ItemStack(ModBlockReference.solder_block));
+			if (ModMetalBlocks.enable_bronze_block==true)
+				OreDictionary.registerOre("blockBronze", new ItemStack(ModBlockReference.bronze_block));
+		}
 	}
 	
 	@SubscribeEvent
@@ -1295,7 +1312,8 @@ public class ModRegistry {
 			
 			event.getRegistry().register(
 				ModBlockReference.tin_ore = new BlockOreTin (new ResourceLocation(References.PREFIX + "ore_tin")));
-			OreDictionary.registerOre("oreTin", ModBlockReference.tin_ore);
+			
+			
 		}
 			
 		if (ModConfig.enable_fluids==true) {
@@ -1389,25 +1407,25 @@ public class ModRegistry {
 			if (ModMetalBlocks.enable_tin_block == true) {
 				
 				event.getRegistry().register(ModBlockReference.tin_block = new BlockTin(new ResourceLocation(References.PREFIX + "block_tin")));
-				OreDictionary.registerOre("blockTin", ModBlockReference.tin_block);
+				
 			}
 			
 			if (ModMetalBlocks.enable_solder_block == true) {
 				
 				event.getRegistry().register(ModBlockReference.solder_block = new BlockSolder(new ResourceLocation(References.PREFIX + "block_solder")));
-				OreDictionary.registerOre("blockSolder", ModBlockReference.solder_block);
+				
 			}
 			
 			if (ModMetalBlocks.enable_bronze_block == true) {
 				
 				event.getRegistry().register(ModBlockReference.bronze_block = new BlockBronze(new ResourceLocation(References.PREFIX + "block_bronze")));
-				OreDictionary.registerOre("blockBronze", ModBlockReference.bronze_block);
+				
 			}
 			
 			if (ModMetalBlocks.enable_invar_block == true) {
 				
 				event.getRegistry().register(ModBlockReference.invar_block = new BlockInvar(new ResourceLocation(References.PREFIX + "block_invar")));
-				OreDictionary.registerOre("blockInvar", ModBlockReference.invar_block);
+				
 			}
 		}		
 	}	

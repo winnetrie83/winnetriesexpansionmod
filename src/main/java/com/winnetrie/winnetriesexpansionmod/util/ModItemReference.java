@@ -162,6 +162,8 @@ public class ModItemReference {
 	public static Item STONE_PICKAXE;
 	public static Item STONE_SWORD;
 	
+	public static Item flowerpot_uncooked;
+	
 	
 	
 	

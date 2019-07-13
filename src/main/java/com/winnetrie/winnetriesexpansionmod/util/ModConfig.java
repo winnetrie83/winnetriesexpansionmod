@@ -43,6 +43,9 @@ public class ModConfig {
 	@Comment({"Adds terracottabuckets to the game"})
 	public static boolean enable_terracotta_buckets = false;
 	
+	@Comment({"Adds uncooked flowerpot to the game"})
+	public static boolean enable_flowerpot_uncooked = false;
+	
 	@Comment({"Adds various items to the game.", "solder wire, solder wire coil, calcium carbonate, natrium carbonate, silica, silica blend"})
 	public static boolean enable_extra_stuff = false;
 	

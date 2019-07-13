@@ -10,6 +10,7 @@ import com.winnetrie.winnetriesexpansionmod.util.References;
 import com.winnetrie.winnetriesexpansionmod.util.Utilities;
 
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
@@ -20,6 +21,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 
@@ -38,8 +40,8 @@ public class ItemDeprecate extends Item{
 	@Override
 	public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		
-		tooltip.add("§4Just an useless item");
-		tooltip.add("§2A nice item for decoration");
+		tooltip.add(I18n.format("winnetriesexpansionmod.useless", TextFormatting.RED, TextFormatting.RESET));
+		tooltip.add(I18n.format("winnetriesexpansionmod.decoration", TextFormatting.GREEN, TextFormatting.RESET));
 	}
 	
 	@Override
