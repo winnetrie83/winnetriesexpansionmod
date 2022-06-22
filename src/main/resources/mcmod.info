@@ -1,5 +1,6 @@
-[{
-  "modid": "winnetriesexpansionMod",
+[
+  {
+  "modid": "winnetriesexpansionmod",
   "name": "Winnetrie's Expansion Mod",
   "description": "Expanding your minecraft experience!",
   "version": "1.12.2-4.0.2.4",
@@ -9,4 +10,5 @@
   "updateJSON": "minecraftforge.net/versions.json",
   "authorList": ["Winnetrie"],
   "credits": "Mojang, Forge Community, The ImmersiveEngineering Team for the amazing textures."
-}]
+  }
+]
