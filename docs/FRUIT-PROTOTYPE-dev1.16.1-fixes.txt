@@ -1,0 +1,4 @@
+Fixed follow-up for dev1.16 prototype:
+- Removed temporary cherry leaf break event hook that caused API mismatch on this NeoForge line.
+- Simplified fruit block property builders to avoid unresolved helper-method mismatches.
+- Fruit prototype otherwise unchanged.

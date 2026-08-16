@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "terracotta_bricks"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "winnetriesexpansionmod:purple_stained_clay",
+  "result": {
+    "id": "minecraft:purple_terracotta",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

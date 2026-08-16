@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "winnetriesexpansionmod:block/light_blue_stained_clay"
+  }
+}

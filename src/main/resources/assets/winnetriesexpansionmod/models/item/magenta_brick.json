@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "winnetriesexpansionmod:item/magenta_terracotta_brick"
+  }
+}

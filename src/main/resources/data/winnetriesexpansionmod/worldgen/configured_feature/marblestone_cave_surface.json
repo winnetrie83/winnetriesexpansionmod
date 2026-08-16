@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "marble"
+    }
+  ],
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 1,
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "winnetriesexpansionmod:marblestone"
+      }
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:stone"
+    }
+  }
+}

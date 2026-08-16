@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "concrete_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:white_concrete"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:white_concrete_wall",
+    "count": 6
+  }
+}

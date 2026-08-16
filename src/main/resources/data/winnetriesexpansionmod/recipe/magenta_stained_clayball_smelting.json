@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "terracotta_bricks"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "winnetriesexpansionmod:magenta_stained_clayball",
+  "result": {
+    "id": "winnetriesexpansionmod:magenta_brick",
+    "count": 1
+  },
+  "experience": 0.3,
+  "cookingtime": 200
+}

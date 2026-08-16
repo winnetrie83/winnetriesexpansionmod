@@ -1,0 +1,3 @@
+Compile hotfix for dev1.16.8.1:
+- Replaced inaccessible level.random/serverLevel.random usages with getRandom() in FruitHangingBlock and FruitGrowthHandler.
+- No gameplay/resource changes.

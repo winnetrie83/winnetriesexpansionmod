@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "winnetriesexpansionmod:block/marblestone_cobble_halfslab"
+    },
+    "type=top": {
+      "model": "winnetriesexpansionmod:block/marblestone_cobble_halfslab_top"
+    },
+    "type=double": {
+      "model": "winnetriesexpansionmod:block/marblestone_cobble_halfslab_double"
+    }
+  }
+}

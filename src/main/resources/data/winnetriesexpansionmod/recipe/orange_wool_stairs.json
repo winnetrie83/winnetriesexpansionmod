@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "wool_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:orange_wool"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:orange_wool_stairs",
+    "count": 6
+  }
+}

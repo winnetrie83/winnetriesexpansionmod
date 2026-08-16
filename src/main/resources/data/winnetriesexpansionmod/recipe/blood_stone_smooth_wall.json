@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "blood_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:blood_stone_smooth"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:blood_stone_smooth_wall",
+    "count": 6
+  }
+}

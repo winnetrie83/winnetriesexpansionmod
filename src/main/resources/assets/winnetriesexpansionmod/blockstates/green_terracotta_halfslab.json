@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "winnetriesexpansionmod:block/green_terracotta_halfslab"
+    },
+    "type=top": {
+      "model": "winnetriesexpansionmod:block/green_terracotta_halfslab_top"
+    },
+    "type=double": {
+      "model": "winnetriesexpansionmod:block/green_terracotta_halfslab_double"
+    }
+  }
+}

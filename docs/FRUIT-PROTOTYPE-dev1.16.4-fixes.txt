@@ -1,0 +1,7 @@
+WEM 5.0.0-dev1.16.4 fruit prototype fixes
+
+- Fruit leaves and hanging-fruit blocks no longer register BlockItems.
+- Fruit sapling BlockItems remain; these are the actual plantable sapling items.
+- Saplings explicitly accept grass block, dirt, coarse dirt, podzol, rooted dirt, mycelium, farmland and moss (plus the dirt tag).
+- Fixed tree growth: the old space check incorrectly treated the sapling itself as an obstruction.
+- Bonemeal is temporarily deterministic during prototyping: one use grows the tree if enough space exists.

@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "limestone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:limestone_cobble"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:limestone_cobble_wall",
+    "count": 6
+  }
+}

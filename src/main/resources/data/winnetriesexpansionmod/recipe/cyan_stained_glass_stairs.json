@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "glass_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:cyan_stained_glass"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:cyan_stained_glass_stairs",
+    "count": 6
+  }
+}

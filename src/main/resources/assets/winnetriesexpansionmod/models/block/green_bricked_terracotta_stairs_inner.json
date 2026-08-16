@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/green_bricked_terracotta",
+    "top": "winnetriesexpansionmod:block/green_bricked_terracotta",
+    "side": "winnetriesexpansionmod:block/green_bricked_terracotta"
+  }
+}

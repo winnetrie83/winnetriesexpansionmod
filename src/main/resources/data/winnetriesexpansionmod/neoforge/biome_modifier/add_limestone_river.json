@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "limestone"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_river",
+  "features": "winnetriesexpansionmod:limestone_river",
+  "step": "underground_ores"
+}

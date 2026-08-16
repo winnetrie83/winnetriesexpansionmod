@@ -1,0 +1,8 @@
+WEM dev1.16.2 fruit API hotfix
+
+- FruitLeavesBlock now extends Minecraft 26.2 TintedParticleLeavesBlock instead of abstract LeavesBlock.
+- Removed invalid FruitLeavesBlock custom codec override.
+- Removed invalid FruitSaplingBlock custom codec override; BushBlock provides its own concrete codec in 26.2.
+- Removed unnecessary FruitHangingBlock custom codec.
+- Updated FruitHangingBlock.updateShape to the Minecraft 26.2 LevelReader/ScheduledTickAccess/RandomSource signature.
+- No content, texture or fruit-growth balancing changes.

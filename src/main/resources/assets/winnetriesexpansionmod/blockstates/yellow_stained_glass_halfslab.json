@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "winnetriesexpansionmod:block/yellow_stained_glass_halfslab"
+    },
+    "type=top": {
+      "model": "winnetriesexpansionmod:block/yellow_stained_glass_halfslab_top"
+    },
+    "type=double": {
+      "model": "winnetriesexpansionmod:block/yellow_stained_glass_halfslab_double"
+    }
+  }
+}

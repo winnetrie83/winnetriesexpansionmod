@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "limestone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:limestone_brick_halfslab"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:limestone_carved_brick",
+    "count": 1
+  }
+}

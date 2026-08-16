@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "winnetriesexpansionmod:block/marblestone_cobble_mossy"
+  }
+}

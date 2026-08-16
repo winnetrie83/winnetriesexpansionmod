@@ -1,0 +1,8 @@
+WEM dev1.16.9.2 fruit sapling growth adjustment
+
+- Fruit saplings no longer grow into a full tree from every bonemeal use.
+- Bonemeal success chance is 45% per use.
+- Saplings now have two internal growth stages (0 -> 1 -> tree).
+- A successful first growth attempt advances to stage 1.
+- A successful later growth attempt grows the tree if enough space is available.
+- Natural random-tick growth uses the same two-stage path.

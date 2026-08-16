@@ -1,0 +1,8 @@
+WEM 5.0.0-dev1.16.9
+
+- Fixed Apple hanging-fruit rendering by copying the vanilla apple sprite into WEM's block texture atlas.
+- Fruits and Drinks remain separate config modules.
+- Optional-fruit drinks require both Drinks and Fruits for normal availability. Apple drinks remain available with Drinks alone.
+- When Fruits is enabled, Apple Trees are the apple source: vanilla apple drops are removed from Oak and Dark Oak leaves.
+- When Fruits is disabled, WEM fruit-tree content is unavailable and vanilla Oak/Dark Oak apple mechanics are untouched.
+- Current drink items still have no brewing/crafting recipes yet; future fruit-drink recipes must carry both module conditions.

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/marblestone_raw",
+    "top": "winnetriesexpansionmod:block/marblestone_smooth_top",
+    "side": "winnetriesexpansionmod:block/marblestone_smooth_side"
+  }
+}

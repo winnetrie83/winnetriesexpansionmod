@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "winnetriesexpansionmod:dread_stone",
+    "winnetriesexpansionmod:dread_stone_halfslab",
+    "winnetriesexpansionmod:dread_stone_stairs",
+    "winnetriesexpansionmod:dread_stone_wall",
+    "winnetriesexpansionmod:dread_stone_smooth",
+    "winnetriesexpansionmod:dread_stone_smooth_halfslab",
+    "winnetriesexpansionmod:dread_stone_smooth_stairs",
+    "winnetriesexpansionmod:dread_stone_smooth_wall",
+    "winnetriesexpansionmod:dread_stone_brick",
+    "winnetriesexpansionmod:dread_stone_brick_halfslab",
+    "winnetriesexpansionmod:dread_stone_brick_stairs",
+    "winnetriesexpansionmod:dread_stone_brick_wall",
+    "winnetriesexpansionmod:blood_stone",
+    "winnetriesexpansionmod:blood_stone_halfslab",
+    "winnetriesexpansionmod:blood_stone_stairs",
+    "winnetriesexpansionmod:blood_stone_wall",
+    "winnetriesexpansionmod:blood_stone_smooth",
+    "winnetriesexpansionmod:blood_stone_smooth_halfslab",
+    "winnetriesexpansionmod:blood_stone_smooth_stairs",
+    "winnetriesexpansionmod:blood_stone_smooth_wall",
+    "winnetriesexpansionmod:blood_stone_brick",
+    "winnetriesexpansionmod:blood_stone_brick_halfslab",
+    "winnetriesexpansionmod:blood_stone_brick_stairs",
+    "winnetriesexpansionmod:blood_stone_brick_wall"
+  ]
+}

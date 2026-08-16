@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/limestone_cracked_brick",
+    "top": "winnetriesexpansionmod:block/limestone_cracked_brick",
+    "side": "winnetriesexpansionmod:block/limestone_cracked_brick"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/dread_stone_brick",
+    "top": "winnetriesexpansionmod:block/dread_stone_brick",
+    "side": "winnetriesexpansionmod:block/dread_stone_brick"
+  }
+}

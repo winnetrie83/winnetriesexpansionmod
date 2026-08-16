@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "terracotta_bricks"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "minecraft:orange_terracotta"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:orange_bricked_terracotta",
+    "count": 4
+  }
+}

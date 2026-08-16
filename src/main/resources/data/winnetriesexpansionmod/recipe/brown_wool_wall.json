@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "wool_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:brown_wool"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:brown_wool_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "dread_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:dread_stone_brick"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:dread_stone_brick_wall",
+    "count": 6
+  }
+}

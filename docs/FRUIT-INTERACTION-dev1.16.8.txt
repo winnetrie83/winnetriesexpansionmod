@@ -1,0 +1,10 @@
+WEM dev1.16.8 fruit interaction/regrowth pass
+
+- Removed periodic recovery scans around players.
+- Hanging fruit now has RIPE=true/false state and schedules only its own regrowth tick after harvesting.
+- Right-click with any item harvests; Fortune hoes use 1 + random(0..Fortune level) fruit.
+- Player mining/breaking harvests instead of removing the internal regrowth block, including Creative.
+- Pick-block on fruit returns fruit item.
+- Fruit leaves now have hidden BlockItems: shears and pick-block return leaves, but leaves stay hidden from WEM creative tab.
+- Fruit-leaf tint handler added for green tint-aware falling particles.
+- Cherry sapling growth uses a one-time bounded seeding scan for initial hanging cherries; no recurring world scan.

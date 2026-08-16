@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "winnetriesexpansionmod:block/cyan_bricked_terracotta"
+  }
+}

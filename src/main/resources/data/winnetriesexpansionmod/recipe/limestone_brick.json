@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "limestone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:limestone"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:limestone_brick",
+    "count": 4
+  }
+}

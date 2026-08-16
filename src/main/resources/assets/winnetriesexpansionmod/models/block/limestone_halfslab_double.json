@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "winnetriesexpansionmod:block/limestone_smooth_side",
+    "top": "winnetriesexpansionmod:block/limestone_smooth_top",
+    "bottom": "winnetriesexpansionmod:block/limestone_raw"
+  }
+}

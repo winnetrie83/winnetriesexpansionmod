@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/lime_bricked_terracotta",
+    "top": "winnetriesexpansionmod:block/lime_bricked_terracotta",
+    "side": "winnetriesexpansionmod:block/lime_bricked_terracotta"
+  }
+}

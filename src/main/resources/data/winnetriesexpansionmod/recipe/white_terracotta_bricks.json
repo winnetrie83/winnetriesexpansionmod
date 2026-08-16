@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "terracotta_bricks"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:white_brick"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:white_terracotta_bricks",
+    "count": 1
+  }
+}

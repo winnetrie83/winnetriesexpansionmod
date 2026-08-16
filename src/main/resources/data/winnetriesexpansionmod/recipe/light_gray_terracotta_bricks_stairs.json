@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "terracotta_bricks"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:light_gray_terracotta_bricks"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:light_gray_terracotta_bricks_stairs",
+    "count": 6
+  }
+}

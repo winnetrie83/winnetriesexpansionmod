@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/marblestone_cobble",
+    "top": "winnetriesexpansionmod:block/marblestone_cobble",
+    "side": "winnetriesexpansionmod:block/marblestone_cobble"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "concrete_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:gray_concrete"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:gray_concrete_stairs",
+    "count": 6
+  }
+}

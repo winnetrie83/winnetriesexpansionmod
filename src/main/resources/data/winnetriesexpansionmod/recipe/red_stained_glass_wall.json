@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "glass_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:red_stained_glass"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:red_stained_glass_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "winnetriesexpansionmod:block/light_gray_bricked_terracotta",
+    "top": "winnetriesexpansionmod:block/light_gray_bricked_terracotta",
+    "side": "winnetriesexpansionmod:block/light_gray_bricked_terracotta"
+  }
+}

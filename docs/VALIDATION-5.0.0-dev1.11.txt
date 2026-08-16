@@ -1,0 +1,38 @@
+Winnetrie's Expansion Mod 5.0.0-dev1.11 validation
+====================================================
+
+Base
+----
+- Based on 5.0.0-dev1.10.5.1 (syntax-fixed dev1.10.5 line).
+- Target: Minecraft 26.2 / NeoForge 26.2.0.59 / Java 25.
+
+Added content
+-------------
+- Wool: slab, stairs and wall for all 16 vanilla wool colours (48 blocks).
+- Glass: slab, stairs and wall for normal glass plus all 16 stained-glass colours (51 blocks).
+- Total new registered blocks: 99.
+- IDs follow existing WEM conventions: *_halfslab, *_stairs and *_wall.
+- Models reference vanilla wool/glass textures directly; no new PNGs and no overlay/composite system.
+- Wool uses wool sound/material-like properties and is ignited by lava.
+- Glass uses glass sound, low glass strength and noOcclusion.
+- Glass loot requires Silk Touch; wool drops itself.
+- New walls are in minecraft:walls; wool shapes are in minecraft:wool.
+- Client item definitions point directly to block models to avoid 99 redundant models/item JSON files.
+
+Static validation
+-----------------
+- Resource JSON files parsed: 3373.
+- Expected new block IDs checked: 99/99.
+- New wall tag entries: 33.
+- New wool tag entries: 48.
+- Missing local block/item model references: 0.
+- Missing local texture references: 0.
+- Glass loot entries missing Silk Touch condition: 0.
+- Java files delimiter-checked: 8; errors: 0.
+- Java trailing-comma-before-method-close scan: 0 hits.
+
+Build limitation
+----------------
+A full Gradle/NeoForge compile was not run in this environment. The source package
+contains gradle-wrapper.properties but no gradlew scripts/wrapper JAR, the container
+has no usable system Gradle installation, and the project targets Java 25.

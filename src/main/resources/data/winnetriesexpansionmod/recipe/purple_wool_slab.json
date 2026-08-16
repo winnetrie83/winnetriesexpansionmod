@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "wool_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:purple_wool"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:purple_wool_halfslab",
+    "count": 6
+  }
+}

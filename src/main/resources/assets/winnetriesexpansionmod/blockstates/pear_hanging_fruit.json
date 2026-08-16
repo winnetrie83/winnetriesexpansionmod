@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "ripe=true": {
+      "model": "winnetriesexpansionmod:block/pear_hanging_fruit"
+    },
+    "ripe=false": {
+      "model": "winnetriesexpansionmod:block/empty"
+    }
+  }
+}

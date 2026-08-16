@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "marble"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:marblestone_cracked_brick"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:marblestone_cracked_brick_wall",
+    "count": 6
+  }
+}

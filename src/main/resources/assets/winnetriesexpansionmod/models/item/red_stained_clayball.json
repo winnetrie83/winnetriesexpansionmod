@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "winnetriesexpansionmod:item/red_stained_clay_ball"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "blood_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:blood_stone"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:blood_stone_halfslab",
+    "count": 6
+  }
+}

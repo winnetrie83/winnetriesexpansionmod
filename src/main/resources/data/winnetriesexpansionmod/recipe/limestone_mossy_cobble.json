@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "limestone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AB"
+  ],
+  "key": {
+    "A": "winnetriesexpansionmod:limestone_cobble",
+    "B": "minecraft:vine"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:limestone_mossy_cobble",
+    "count": 1
+  }
+}

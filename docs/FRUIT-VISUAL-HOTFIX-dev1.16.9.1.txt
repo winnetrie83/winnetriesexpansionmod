@@ -1,0 +1,4 @@
+Fruit visual hotfix dev1.16.9.1:
+- Shifted all hanging-fruit model planes upward by 2 model pixels.
+- The visible fruit now overlaps slightly into the leaf block so it appears attached instead of floating.
+- No gameplay, drop, regrowth, or config behavior changed.

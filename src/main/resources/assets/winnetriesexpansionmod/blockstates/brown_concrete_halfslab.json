@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "winnetriesexpansionmod:block/brown_concrete_halfslab"
+    },
+    "type=top": {
+      "model": "winnetriesexpansionmod:block/brown_concrete_halfslab_top"
+    },
+    "type=double": {
+      "model": "winnetriesexpansionmod:block/brown_concrete_halfslab_double"
+    }
+  }
+}
