@@ -1,6 +1,0 @@
-WEM dev1.16.8.3
-
-Fixes a client crash when left-clicking/mining ripe hanging fruit.
-Cause: client-side onDestroyedByPlayer changed the block immediately to RIPE=false; that state has an empty outline shape. Minecraft 26.2 then attempted to create breaking particles and called bounds() on the empty shape.
-Fix: client-side destruction now mirrors vanilla/NeoForge prediction by temporarily replacing the block with its fluid/air state. The server remains authoritative, drops the fruit, stores RIPE=false for regrowth, and syncs that state back to the client.
-No balancing or content changes.

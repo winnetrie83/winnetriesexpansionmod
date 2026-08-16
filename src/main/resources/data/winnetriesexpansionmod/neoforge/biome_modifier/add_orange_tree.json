@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "fruits"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#winnetriesexpansionmod:has_orange_tree",
+  "features": "winnetriesexpansionmod:orange_tree",
+  "step": "vegetal_decoration"
+}

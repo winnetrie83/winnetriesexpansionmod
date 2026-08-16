@@ -12,6 +12,11 @@ tasks.named('wrapper', Wrapper).configure {
 version = mod_version
 group = mod_group_id
 
+
+repositories {
+    maven { url = 'https://maven.blamejared.com' }
+}
+
 sourceSets.main.resources {
     srcDir('src/generated/resources')
 }
@@ -37,6 +42,12 @@ neoForge {
 }
 
 configurations { runtimeClasspath.extendsFrom localRuntime }
+
+
+dependencies {
+    // Optional compile-time integration only. JEI is NOT required at runtime.
+    compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
+}
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [

@@ -1,7 +1,0 @@
-WEM 5.0.0-dev1.16.5 fruit prototype visual fixes
-
-- Sapling BlockItems now render as flat generated inventory items using the supplied sapling textures.
-- Fruit leaves and hanging fruits remain world-only blocks with no BlockItem registration.
-- Fruit leaves temporarily use fixed-green vanilla azalea leaves instead of grayscale oak leaves that require a biome tint handler.
-- Hanging fruit textures are now copied into the block atlas and use a compact crossed-plane model in the upper half of the block directly below leaves.
-- Hanging fruit selection shape moved to the same upper-half position.

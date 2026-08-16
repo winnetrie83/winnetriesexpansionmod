@@ -1,1 +1,0 @@
-dev1.7.2 hotfix: terracotta overlay textures are now composited by standard RGBA alpha compositing of the original user-provided mask PNGs over the base terracotta texture. No color correction, thresholding, or hard pixel overwrite.

@@ -4,7 +4,10 @@ import be.winnetrie.mod.winnetriesexpansionmod.registry.ModBlocks;
 import be.winnetrie.mod.winnetriesexpansionmod.registry.ModCreativeTabs;
 import be.winnetrie.mod.winnetriesexpansionmod.registry.ModConditions;
 import be.winnetrie.mod.winnetriesexpansionmod.registry.ModItems;
+import be.winnetrie.mod.winnetriesexpansionmod.registry.ModFeatures;
+import be.winnetrie.mod.winnetriesexpansionmod.brewing.WemBrewingHandler;
 import be.winnetrie.mod.winnetriesexpansionmod.event.FruitGrowthHandler;
+import be.winnetrie.mod.winnetriesexpansionmod.event.DrinkEffectsHandler;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -19,9 +22,12 @@ public final class WinnetriesExpansionMod {
     public WinnetriesExpansionMod(IEventBus modEventBus, ModContainer modContainer) {
         ModConditions.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModFeatures.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         NeoForge.EVENT_BUS.register(new FruitGrowthHandler());
+        NeoForge.EVENT_BUS.register(new WemBrewingHandler());
+        NeoForge.EVENT_BUS.register(new DrinkEffectsHandler());
         modContainer.registerConfig(ModConfig.Type.COMMON, WemConfig.SPEC);
     }
 }

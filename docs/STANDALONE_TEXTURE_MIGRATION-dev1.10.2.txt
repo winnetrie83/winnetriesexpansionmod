@@ -1,8 +1,0 @@
-WEM 5.0.0-dev1.10.2 standalone texture migration
-
-- Layer-composed block/item models have been removed from active resources.
-- User-supplied Bricked Terracotta PNGs are direct textures for the *_terracotta_brick family.
-- User-supplied Terracotta Bricks PNGs are direct textures for the legacy *_bricks family.
-- Registry IDs are retained for saved-world compatibility. Display names now reflect Bricked Terracotta / Terracotta Bricks.
-- Carved/cracked terracotta and concrete variants for which no full PNG exists currently render with their plain material base only. Their IDs/recipes/loot remain intact until replacement standalone textures are supplied.
-- Future block visuals should be supplied as complete standalone PNGs.

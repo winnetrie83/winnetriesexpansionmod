@@ -389,7 +389,7 @@ public final class ModBlocks {
     private static void registerHangingFruit(String id, String fruitId) {
         DeferredBlock<FruitHangingBlock> block = BLOCKS.registerBlock(id,
                 props -> new FruitHangingBlock(fruitId, props),
-                () -> BlockBehaviour.Properties.ofFullCopy(Blocks.SHORT_GRASS));
+                () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING));
         BLOCKS_BY_ID.put(id, block);
     }
 

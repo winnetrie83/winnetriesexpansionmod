@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "fruits"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#winnetriesexpansionmod:has_peach_tree",
+  "features": "winnetriesexpansionmod:peach_tree",
+  "step": "vegetal_decoration"
+}

@@ -40,7 +40,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 public class FruitHangingBlock extends Block {
     public static final BooleanProperty RIPE = BooleanProperty.create("ripe");
 
-    private static final VoxelShape RIPE_SHAPE = Block.box(4.0D, 8.0D, 4.0D, 12.0D, 16.0D, 12.0D);
+    private static final VoxelShape RIPE_SHAPE = Block.box(4.0D, 7.0D, 4.0D, 12.0D, 15.0D, 12.0D);
     private static final int MIN_REGROW_TICKS = 600;   // 30 seconds
     private static final int EXTRA_REGROW_TICKS = 601; // up to 60 seconds total
 

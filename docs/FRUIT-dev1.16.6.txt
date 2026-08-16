@@ -1,7 +1,0 @@
-WEM 5.0.0-dev1.16.6 fruit follow-up
-
-- Hanging fruit can be harvested by right-clicking with an empty hand.
-- Breaking particles now use each fruit texture explicitly.
-- Added Apple Sapling / Apple Leaves / Hanging Apple using the user apple sapling texture and vanilla apple item.
-- Vanilla cherry leaves can now grow WEM hanging cherries through a lightweight nearby-player server tick sampler.
-- Cherry fruit regrows; vanilla cherry trees/saplings remain untouched.

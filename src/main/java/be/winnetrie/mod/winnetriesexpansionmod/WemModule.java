@@ -21,9 +21,9 @@ public enum WemModule {
 
     /**
      * Drinks whose normal availability depends on fruit supplied by WEM's optional
-     * Fruits module. Apple drinks are deliberately absent: vanilla apples exist even
-     * when Fruits is disabled. Future orange/peach/pear drinks are listed already so
-     * their dependency cannot accidentally be forgotten when their recipes are added.
+     * Fruits module. Apple juice is deliberately absent: vanilla apples exist even
+     * when Fruits is disabled. Vanilla-ingredient juices (beetroot, cactus, carrot,
+     * chorus fruit, melon and pumpkin) only require the Drinks module.
      */
     private static final Set<String> OPTIONAL_FRUIT_DRINKS = Set.of(
             "orange_juice_bottle",
@@ -32,7 +32,12 @@ public enum WemModule {
             "cherry_juice_bottle",
             "lemon_juice_bottle",
             "plum_juice_bottle",
-            "plum_wine_bottle"
+            "bland_orange_juice_bottle",
+            "bland_peach_juice_bottle",
+            "bland_pear_juice_bottle",
+            "bland_cherry_juice_bottle",
+            "bland_lemon_juice_bottle",
+            "bland_plum_juice_bottle"
     );
 
     private final String id;
@@ -100,7 +105,7 @@ public enum WemModule {
     public static boolean isContentEnabled(String id) {
         // Drinks have one extra dependency layer. A drink is always gated by the
         // Drinks module; drinks made from optional WEM fruit additionally require
-        // the Fruits module. Apple juice/cider intentionally remain independent.
+        // the Fruits module. Apple juice intentionally remains independent.
         if (id.endsWith("_bottle")) {
             return isDrinkEnabled(id);
         }

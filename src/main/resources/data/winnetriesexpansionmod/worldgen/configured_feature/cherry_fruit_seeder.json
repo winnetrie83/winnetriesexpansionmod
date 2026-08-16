@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "fruits"
+    }
+  ],
+  "type": "winnetriesexpansionmod:cherry_fruit_seeder",
+  "config": {}
+}

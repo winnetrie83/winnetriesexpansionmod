@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "fruits"
+    }
+  ],
+  "feature": "winnetriesexpansionmod:cherry_fruit_seeder",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

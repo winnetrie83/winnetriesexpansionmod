@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "fruits"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#winnetriesexpansionmod:has_plum_tree",
+  "features": "winnetriesexpansionmod:plum_tree",
+  "step": "vegetal_decoration"
+}
