@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "particle": "#leaf"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        16,
+        8
+      ],
+      "faces": {
+        "east": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#leaf",
+          "tintindex": 0,
+          "cullface": "up"
+        },
+        "down": {
+          "texture": "#leaf",
+          "tintindex": 0,
+          "cullface": "down"
+        },
+        "north": {
+          "texture": "#leaf",
+          "tintindex": 0,
+          "cullface": "north"
+        }
+      }
+    }
+  ]
+}

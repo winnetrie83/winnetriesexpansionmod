@@ -1,0 +1,4645 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_core"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e0s0w0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e0s0w1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e0s1w0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e0s1w1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e1s0w0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e1s0w1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e1s1w0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n0e1s1w1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e0s0w0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e0s0w1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e0s1w0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e0s1w1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e1s0w0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e1s0w1"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e1s1w0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_state_switch/copper_bars_n1e1s1w1"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_north_body"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_east_body"
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_south_body"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_west_body"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_bottom_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "true",
+        "north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_north_bottom_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_east_bottom_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "true",
+        "south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_south_bottom_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_west_bottom_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_bottom_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "false",
+        "north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_north_bottom_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_east_bottom_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "false",
+        "south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_south_bottom_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_bottom_rail": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_west_bottom_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "true",
+        "north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_north_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_east_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "true",
+        "south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_south_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "true",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_west_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_north_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_north_top_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_east_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_east": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_east_top_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_south_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_south": "false",
+        "south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_south_top_cont"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_west_top_rail"
+      }
+    },
+    {
+      "when": {
+        "wem_top_rail": "false",
+        "wem_top_west": "false",
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_west_top_cont"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_2"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "false",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "false",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "false",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "false",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "false",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "false",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "east": "true",
+        "south": "true",
+        "west": "true",
+        "wem_top_rail": "false",
+        "wem_top_north": "true",
+        "wem_top_east": "true",
+        "wem_top_south": "true",
+        "wem_top_west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/metal_bars_parts_switch/copper_bars_center_top_cap_0"
+      }
+    }
+  ]
+}

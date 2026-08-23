@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "winnetriesexpansionmod:oak_vertical_slab",
+    "winnetriesexpansionmod:spruce_vertical_slab",
+    "winnetriesexpansionmod:birch_vertical_slab",
+    "winnetriesexpansionmod:jungle_vertical_slab",
+    "winnetriesexpansionmod:acacia_vertical_slab",
+    "winnetriesexpansionmod:dark_oak_vertical_slab",
+    "winnetriesexpansionmod:pale_oak_vertical_slab",
+    "winnetriesexpansionmod:crimson_vertical_slab",
+    "winnetriesexpansionmod:warped_vertical_slab",
+    "winnetriesexpansionmod:mangrove_vertical_slab",
+    "winnetriesexpansionmod:bamboo_vertical_slab",
+    "winnetriesexpansionmod:cherry_vertical_slab",
+    "winnetriesexpansionmod:bamboo_mosaic_vertical_slab"
+  ]
+}

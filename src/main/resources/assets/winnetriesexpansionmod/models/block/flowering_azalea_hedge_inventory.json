@@ -1,0 +1,7 @@
+{
+  "parent": "winnetriesexpansionmod:block/hedge_inventory",
+  "textures": {
+    "leaf": "minecraft:block/flowering_azalea_leaves",
+    "log": "minecraft:block/oak_log"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:conditional",
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vanilla_3d_blocks"
+    }
+  ],
+  "fallback": "winnetriesexpansionmod:block/vanilla_flat_iron_bars_cap",
+  "parent": "winnetriesexpansionmod:block/template_bars_3d_empty",
+  "textures": {
+    "bars": "minecraft:block/iron_bars",
+    "edge": "minecraft:block/iron_bars"
+  }
+}

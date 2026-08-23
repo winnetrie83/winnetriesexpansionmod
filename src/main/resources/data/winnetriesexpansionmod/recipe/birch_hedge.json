@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": "minecraft:birch_leaves",
+    "W": "minecraft:birch_log"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:birch_hedge",
+    "count": 1
+  }
+}

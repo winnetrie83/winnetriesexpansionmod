@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "glass_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "minecraft:glass"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:glass_vertical_slab",
+    "count": 6
+  }
+}

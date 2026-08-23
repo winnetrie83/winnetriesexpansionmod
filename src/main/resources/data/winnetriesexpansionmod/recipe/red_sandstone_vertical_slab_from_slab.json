@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "minecraft:red_sandstone"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:red_sandstone_vertical_slab",
+    "count": 6
+  }
+}

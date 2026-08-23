@@ -1,0 +1,117 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "particle": "#leaf"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        10,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#log"
+        },
+        "east": {
+          "texture": "#log"
+        },
+        "south": {
+          "texture": "#log"
+        },
+        "west": {
+          "texture": "#log"
+        },
+        "up": {
+          "texture": "#log"
+        },
+        "down": {
+          "texture": "#log"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#leaf",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        12,
+        3
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#leaf",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#leaf",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

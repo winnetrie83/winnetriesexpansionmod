@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "glass_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "V"
+  ],
+  "key": {
+    "V": "winnetriesexpansionmod:magenta_stained_glass_vertical_slab"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:magenta_stained_glass_halfslab",
+    "count": 1
+  }
+}

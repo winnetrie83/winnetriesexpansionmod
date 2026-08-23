@@ -24,6 +24,12 @@
     "winnetriesexpansionmod:blood_stone_brick",
     "winnetriesexpansionmod:blood_stone_brick_halfslab",
     "winnetriesexpansionmod:blood_stone_brick_stairs",
-    "winnetriesexpansionmod:blood_stone_brick_wall"
+    "winnetriesexpansionmod:blood_stone_brick_wall",
+    "winnetriesexpansionmod:blood_stone_vertical_slab",
+    "winnetriesexpansionmod:blood_stone_brick_vertical_slab",
+    "winnetriesexpansionmod:blood_stone_smooth_vertical_slab",
+    "winnetriesexpansionmod:dread_stone_vertical_slab",
+    "winnetriesexpansionmod:dread_stone_brick_vertical_slab",
+    "winnetriesexpansionmod:dread_stone_smooth_vertical_slab"
   ]
 }

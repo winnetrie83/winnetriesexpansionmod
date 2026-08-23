@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "blood_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "V"
+  ],
+  "key": {
+    "V": "winnetriesexpansionmod:blood_stone_smooth_vertical_slab"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:blood_stone_smooth_halfslab",
+    "count": 1
+  }
+}

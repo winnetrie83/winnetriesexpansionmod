@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:conditional",
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vanilla_3d_blocks"
+    }
+  ],
+  "fallback": "winnetriesexpansionmod:block/vanilla_flat_copper_bars_cap",
+  "parent": "winnetriesexpansionmod:block/template_bars_3d_empty",
+  "textures": {
+    "bars": "minecraft:block/copper_bars",
+    "edge": "minecraft:block/copper_bars"
+  }
+}

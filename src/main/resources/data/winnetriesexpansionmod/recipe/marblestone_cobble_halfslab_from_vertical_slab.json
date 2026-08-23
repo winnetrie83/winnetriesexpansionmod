@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "marble"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "V"
+  ],
+  "key": {
+    "V": "winnetriesexpansionmod:marblestone_cobble_vertical_slab"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:marblestone_cobble_halfslab",
+    "count": 1
+  }
+}

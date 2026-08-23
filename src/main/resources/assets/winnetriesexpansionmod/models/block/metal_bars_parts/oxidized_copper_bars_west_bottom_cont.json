@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "minecraft:block/oxidized_copper_bars",
+    "bars": "minecraft:block/oxidized_copper_bars",
+    "edge": "minecraft:block/oxidized_copper_bars"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        7
+      ],
+      "to": [
+        4,
+        1,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bars",
+          "uv": [
+            2,
+            14,
+            4,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#bars",
+          "uv": [
+            4,
+            14,
+            2,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#edge",
+          "uv": [
+            2,
+            9,
+            3,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#edge",
+          "uv": [
+            2,
+            9,
+            3,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#edge",
+          "uv": [
+            2,
+            9,
+            3,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#edge",
+          "uv": [
+            2,
+            9,
+            3,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

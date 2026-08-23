@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "wool_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:red_wool_vertical_slab",
+    "count": 6
+  }
+}

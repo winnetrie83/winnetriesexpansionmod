@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "winnetriesexpansionmod:oak_hedge",
+    "winnetriesexpansionmod:spruce_hedge",
+    "winnetriesexpansionmod:birch_hedge",
+    "winnetriesexpansionmod:jungle_hedge",
+    "winnetriesexpansionmod:acacia_hedge",
+    "winnetriesexpansionmod:dark_oak_hedge",
+    "winnetriesexpansionmod:mangrove_hedge",
+    "winnetriesexpansionmod:cherry_hedge",
+    "winnetriesexpansionmod:pale_oak_hedge",
+    "winnetriesexpansionmod:azalea_hedge",
+    "winnetriesexpansionmod:flowering_azalea_hedge"
+  ]
+}

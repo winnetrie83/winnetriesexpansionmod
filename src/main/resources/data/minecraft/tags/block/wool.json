@@ -48,6 +48,22 @@
     "winnetriesexpansionmod:red_wool_wall",
     "winnetriesexpansionmod:black_wool_halfslab",
     "winnetriesexpansionmod:black_wool_stairs",
-    "winnetriesexpansionmod:black_wool_wall"
+    "winnetriesexpansionmod:black_wool_wall",
+    "winnetriesexpansionmod:white_wool_vertical_slab",
+    "winnetriesexpansionmod:orange_wool_vertical_slab",
+    "winnetriesexpansionmod:magenta_wool_vertical_slab",
+    "winnetriesexpansionmod:light_blue_wool_vertical_slab",
+    "winnetriesexpansionmod:yellow_wool_vertical_slab",
+    "winnetriesexpansionmod:lime_wool_vertical_slab",
+    "winnetriesexpansionmod:pink_wool_vertical_slab",
+    "winnetriesexpansionmod:gray_wool_vertical_slab",
+    "winnetriesexpansionmod:light_gray_wool_vertical_slab",
+    "winnetriesexpansionmod:cyan_wool_vertical_slab",
+    "winnetriesexpansionmod:purple_wool_vertical_slab",
+    "winnetriesexpansionmod:blue_wool_vertical_slab",
+    "winnetriesexpansionmod:brown_wool_vertical_slab",
+    "winnetriesexpansionmod:green_wool_vertical_slab",
+    "winnetriesexpansionmod:red_wool_vertical_slab",
+    "winnetriesexpansionmod:black_wool_vertical_slab"
   ]
 }

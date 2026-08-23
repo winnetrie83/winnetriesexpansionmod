@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "be.winnetrie.mod.winnetriesexpansionmod.mixin",
+  "mixins": [
+    "LadderBlockMixin",
+    "MetalBarsBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

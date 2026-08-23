@@ -1,0 +1,11 @@
+{
+  "loader": "neoforge:conditional",
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vanilla_3d_blocks"
+    }
+  ],
+  "fallback": "winnetriesexpansionmod:block/metal_bars_parts/empty",
+  "parent": "winnetriesexpansionmod:block/metal_bars_parts/exposed_copper_bars_north_top_rail"
+}

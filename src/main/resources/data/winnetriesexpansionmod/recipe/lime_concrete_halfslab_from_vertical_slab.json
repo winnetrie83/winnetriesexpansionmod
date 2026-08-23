@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "concrete_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "V"
+  ],
+  "key": {
+    "V": "winnetriesexpansionmod:lime_concrete_vertical_slab"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:lime_concrete_halfslab",
+    "count": 1
+  }
+}

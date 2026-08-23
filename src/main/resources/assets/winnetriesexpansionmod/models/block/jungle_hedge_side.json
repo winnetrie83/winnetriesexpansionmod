@@ -1,0 +1,7 @@
+{
+  "parent": "winnetriesexpansionmod:block/hedge_side",
+  "textures": {
+    "leaf": "minecraft:block/jungle_leaves",
+    "log": "minecraft:block/jungle_log"
+  }
+}

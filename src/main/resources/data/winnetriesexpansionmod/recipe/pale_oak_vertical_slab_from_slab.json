@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "minecraft:pale_oak_planks"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:pale_oak_vertical_slab",
+    "count": 6
+  }
+}

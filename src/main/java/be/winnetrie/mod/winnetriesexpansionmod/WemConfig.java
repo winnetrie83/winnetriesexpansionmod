@@ -28,6 +28,9 @@ public final class WemConfig {
     public static final ModConfigSpec.BooleanValue MARBLE;
     public static final ModConfigSpec.BooleanValue DREAD_STONE;
     public static final ModConfigSpec.BooleanValue BLOOD_STONE;
+    public static final ModConfigSpec.BooleanValue HEDGES;
+    public static final ModConfigSpec.BooleanValue VERTICAL_SLABS;
+    public static final ModConfigSpec.BooleanValue VANILLA_3D_BLOCKS;
     public static final ModConfigSpec.BooleanValue FRUITS;
     public static final ModConfigSpec.BooleanValue DRINKS;
 
@@ -58,6 +61,12 @@ public final class WemConfig {
                 "All Dread Stone content. Disabling also removes Warped Forest generation.");
         BLOOD_STONE = module(WemModule.BLOOD_STONE,
                 "All Blood Stone content. Disabling also removes Crimson Forest generation.");
+        HEDGES = module(WemModule.HEDGES,
+                "All Hedge blocks and their crafting/loot. Currently includes 11 vanilla-leaf hedges.");
+        VERTICAL_SLABS = module(WemModule.VERTICAL_SLABS,
+                "All 181 Vertical Slabs. WEM-derived variants additionally follow the module of their source material.");
+        VANILLA_3D_BLOCKS = module(WemModule.VANILLA_3D_BLOCKS,
+                "Enables WEM 3D models for selected vanilla thin blocks: Ladder, Iron Bars and all Copper Bars oxidation/waxed variants.");
         FRUITS = module(WemModule.FRUITS,
                 "Fruit items, fruit saplings, fruit leaves and hanging fruit blocks. When enabled, vanilla apple drops from Oak/Dark Oak leaves are suppressed in favour of Apple Trees.");
         DRINKS = module(WemModule.DRINKS,

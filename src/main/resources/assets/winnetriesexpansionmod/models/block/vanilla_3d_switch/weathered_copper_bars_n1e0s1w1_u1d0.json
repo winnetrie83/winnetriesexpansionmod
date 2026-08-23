@@ -1,0 +1,11 @@
+{
+  "loader": "neoforge:conditional",
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vanilla_3d_blocks"
+    }
+  ],
+  "fallback": "winnetriesexpansionmod:block/vanilla_flat/weathered_copper_bars_n1e0s1w1",
+  "parent": "winnetriesexpansionmod:block/vanilla_3d/weathered_copper_bars_n1e0s1w1_u1d0"
+}

@@ -1,4 +1,13 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "winnetriesexpansionmod:cut_copper_vertical_slab",
+    "winnetriesexpansionmod:exposed_cut_copper_vertical_slab",
+    "winnetriesexpansionmod:weathered_cut_copper_vertical_slab",
+    "winnetriesexpansionmod:oxidized_cut_copper_vertical_slab",
+    "winnetriesexpansionmod:waxed_cut_copper_vertical_slab",
+    "winnetriesexpansionmod:waxed_exposed_cut_copper_vertical_slab",
+    "winnetriesexpansionmod:waxed_weathered_cut_copper_vertical_slab",
+    "winnetriesexpansionmod:waxed_oxidized_cut_copper_vertical_slab"
+  ]
 }

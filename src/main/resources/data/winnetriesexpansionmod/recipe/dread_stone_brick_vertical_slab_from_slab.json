@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "dread_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "winnetriesexpansionmod:dread_stone_brick"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:dread_stone_brick_vertical_slab",
+    "count": 6
+  }
+}

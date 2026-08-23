@@ -1,0 +1,72 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_side",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_side",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_side",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_side",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_post_top_cap"
+      }
+    },
+    {
+      "when": {
+        "down": "false"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_post_bottom_cap"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "winnetriesexpansionmod:block/orange_hedge_post_extension"
+      }
+    }
+  ]
+}

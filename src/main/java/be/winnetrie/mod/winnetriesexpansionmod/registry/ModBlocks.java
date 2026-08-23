@@ -6,6 +6,9 @@ import java.util.Map;
 
 import be.winnetrie.mod.winnetriesexpansionmod.WinnetriesExpansionMod;
 import be.winnetrie.mod.winnetriesexpansionmod.block.FruitHangingBlock;
+import be.winnetrie.mod.winnetriesexpansionmod.block.GlassStairBlock;
+import be.winnetrie.mod.winnetriesexpansionmod.block.HedgeBlock;
+import be.winnetrie.mod.winnetriesexpansionmod.block.VerticalSlabBlock;
 import be.winnetrie.mod.winnetriesexpansionmod.block.FruitLeavesBlock;
 import be.winnetrie.mod.winnetriesexpansionmod.block.FruitSaplingBlock;
 import net.minecraft.world.item.DyeColor;
@@ -16,7 +19,6 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -352,13 +354,101 @@ public final class ModBlocks {
             "yellow_terracotta_wall"
     );
 
+    private static final List<Map.Entry<String, Block>> VANILLA_VERTICAL_SLAB_SOURCES = List.of(
+            Map.entry("oak_slab", Blocks.OAK_SLAB),
+            Map.entry("spruce_slab", Blocks.SPRUCE_SLAB),
+            Map.entry("birch_slab", Blocks.BIRCH_SLAB),
+            Map.entry("jungle_slab", Blocks.JUNGLE_SLAB),
+            Map.entry("acacia_slab", Blocks.ACACIA_SLAB),
+            Map.entry("dark_oak_slab", Blocks.DARK_OAK_SLAB),
+            Map.entry("pale_oak_slab", Blocks.PALE_OAK_SLAB),
+            Map.entry("crimson_slab", Blocks.CRIMSON_SLAB),
+            Map.entry("warped_slab", Blocks.WARPED_SLAB),
+            Map.entry("mangrove_slab", Blocks.MANGROVE_SLAB),
+            Map.entry("bamboo_slab", Blocks.BAMBOO_SLAB),
+            Map.entry("cherry_slab", Blocks.CHERRY_SLAB),
+            Map.entry("bamboo_mosaic_slab", Blocks.BAMBOO_MOSAIC_SLAB),
+            Map.entry("stone_slab", Blocks.STONE_SLAB),
+            Map.entry("smooth_stone_slab", Blocks.SMOOTH_STONE_SLAB),
+            Map.entry("stone_brick_slab", Blocks.STONE_BRICK_SLAB),
+            Map.entry("sandstone_slab", Blocks.SANDSTONE_SLAB),
+            Map.entry("purpur_slab", Blocks.PURPUR_SLAB),
+            Map.entry("quartz_slab", Blocks.QUARTZ_SLAB),
+            Map.entry("red_sandstone_slab", Blocks.RED_SANDSTONE_SLAB),
+            Map.entry("brick_slab", Blocks.BRICK_SLAB),
+            Map.entry("cobblestone_slab", Blocks.COBBLESTONE_SLAB),
+            Map.entry("nether_brick_slab", Blocks.NETHER_BRICK_SLAB),
+            Map.entry("prismarine_slab", Blocks.PRISMARINE_SLAB),
+            Map.entry("prismarine_brick_slab", Blocks.PRISMARINE_BRICK_SLAB),
+            Map.entry("dark_prismarine_slab", Blocks.DARK_PRISMARINE_SLAB),
+            Map.entry("polished_granite_slab", Blocks.POLISHED_GRANITE_SLAB),
+            Map.entry("smooth_red_sandstone_slab", Blocks.SMOOTH_RED_SANDSTONE_SLAB),
+            Map.entry("mossy_stone_brick_slab", Blocks.MOSSY_STONE_BRICK_SLAB),
+            Map.entry("polished_diorite_slab", Blocks.POLISHED_DIORITE_SLAB),
+            Map.entry("mossy_cobblestone_slab", Blocks.MOSSY_COBBLESTONE_SLAB),
+            Map.entry("end_stone_brick_slab", Blocks.END_STONE_BRICK_SLAB),
+            Map.entry("smooth_sandstone_slab", Blocks.SMOOTH_SANDSTONE_SLAB),
+            Map.entry("smooth_quartz_slab", Blocks.SMOOTH_QUARTZ_SLAB),
+            Map.entry("granite_slab", Blocks.GRANITE_SLAB),
+            Map.entry("andesite_slab", Blocks.ANDESITE_SLAB),
+            Map.entry("red_nether_brick_slab", Blocks.RED_NETHER_BRICK_SLAB),
+            Map.entry("polished_andesite_slab", Blocks.POLISHED_ANDESITE_SLAB),
+            Map.entry("diorite_slab", Blocks.DIORITE_SLAB),
+            Map.entry("cut_sandstone_slab", Blocks.CUT_SANDSTONE_SLAB),
+            Map.entry("cut_red_sandstone_slab", Blocks.CUT_RED_SANDSTONE_SLAB),
+            Map.entry("blackstone_slab", Blocks.BLACKSTONE_SLAB),
+            Map.entry("polished_blackstone_brick_slab", Blocks.POLISHED_BLACKSTONE_BRICK_SLAB),
+            Map.entry("polished_blackstone_slab", Blocks.POLISHED_BLACKSTONE_SLAB),
+            Map.entry("cobbled_deepslate_slab", Blocks.COBBLED_DEEPSLATE_SLAB),
+            Map.entry("polished_deepslate_slab", Blocks.POLISHED_DEEPSLATE_SLAB),
+            Map.entry("deepslate_tile_slab", Blocks.DEEPSLATE_TILE_SLAB),
+            Map.entry("deepslate_brick_slab", Blocks.DEEPSLATE_BRICK_SLAB),
+            Map.entry("mud_brick_slab", Blocks.MUD_BRICK_SLAB),
+            Map.entry("tuff_slab", Blocks.TUFF_SLAB),
+            Map.entry("polished_tuff_slab", Blocks.POLISHED_TUFF_SLAB),
+            Map.entry("tuff_brick_slab", Blocks.TUFF_BRICK_SLAB),
+            Map.entry("resin_brick_slab", Blocks.RESIN_BRICK_SLAB),
+            Map.entry("cinnabar_slab", Blocks.CINNABAR_SLAB),
+            Map.entry("polished_cinnabar_slab", Blocks.POLISHED_CINNABAR_SLAB),
+            Map.entry("cinnabar_brick_slab", Blocks.CINNABAR_BRICK_SLAB),
+            Map.entry("sulfur_slab", Blocks.SULFUR_SLAB),
+            Map.entry("polished_sulfur_slab", Blocks.POLISHED_SULFUR_SLAB),
+            Map.entry("sulfur_brick_slab", Blocks.SULFUR_BRICK_SLAB),
+            Map.entry("cut_copper_slab", Blocks.CUT_COPPER_SLAB.weathering().unaffected()),
+            Map.entry("exposed_cut_copper_slab", Blocks.CUT_COPPER_SLAB.weathering().exposed()),
+            Map.entry("weathered_cut_copper_slab", Blocks.CUT_COPPER_SLAB.weathering().weathered()),
+            Map.entry("oxidized_cut_copper_slab", Blocks.CUT_COPPER_SLAB.weathering().oxidized()),
+            Map.entry("waxed_cut_copper_slab", Blocks.CUT_COPPER_SLAB.waxed().unaffected()),
+            Map.entry("waxed_exposed_cut_copper_slab", Blocks.CUT_COPPER_SLAB.waxed().exposed()),
+            Map.entry("waxed_weathered_cut_copper_slab", Blocks.CUT_COPPER_SLAB.waxed().weathered()),
+            Map.entry("waxed_oxidized_cut_copper_slab", Blocks.CUT_COPPER_SLAB.waxed().oxidized())
+    );
+
+    private static final List<String> HEDGES = List.of(
+            "oak_hedge",
+            "spruce_hedge",
+            "birch_hedge",
+            "jungle_hedge",
+            "acacia_hedge",
+            "dark_oak_hedge",
+            "mangrove_hedge",
+            "cherry_hedge",
+            "pale_oak_hedge",
+            "azalea_hedge",
+            "flowering_azalea_hedge"
+    );
+
+
     static {
         registerFruitContent();
+        HEDGES.forEach(ModBlocks::registerHedge);
         BASIC_BLOCKS.forEach(ModBlocks::registerBasicBlock);
         SLABS.forEach(ModBlocks::registerSlab);
         STAIRS.forEach(ModBlocks::registerStairs);
         WALLS.forEach(ModBlocks::registerWall);
         registerVanillaWoolAndGlassShapes();
+        registerVanillaVerticalSlabs();
+        registerWemVerticalSlabs();
     }
 
 
@@ -411,32 +501,159 @@ public final class ModBlocks {
         }
     }
 
+    private static void registerHedge(String id) {
+        DeferredBlock<HedgeBlock> block = BLOCKS.registerBlock(id,
+                HedgeBlock::new,
+                () -> BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES));
+        BLOCKS_BY_ID.put(id, block);
+    }
+
+    private static void registerVanillaVerticalSlabs() {
+        VANILLA_VERTICAL_SLAB_SOURCES.forEach(entry -> {
+            String sourceSlabId = entry.getKey();
+            String id = sourceSlabId.substring(0, sourceSlabId.length() - "_slab".length()) + "_vertical_slab";
+            DeferredBlock<VerticalSlabBlock> block = BLOCKS.registerBlock(id,
+                    VerticalSlabBlock::new,
+                    () -> BlockBehaviour.Properties.ofFullCopy(entry.getValue()));
+            BLOCKS_BY_ID.put(id, block);
+        });
+    }
+
+    private static void registerWemVerticalSlabs() {
+        SLABS.forEach(ModBlocks::registerWemVerticalSlab);
+
+        for (String color : VANILLA_DYE_COLORS) {
+            registerWemVerticalSlab(color + "_wool_halfslab");
+        }
+
+        registerWemVerticalSlab("glass_halfslab");
+
+        for (String color : VANILLA_DYE_COLORS) {
+            registerWemVerticalSlab(color + "_stained_glass_halfslab");
+        }
+    }
+
+    private static void registerWemVerticalSlab(String sourceSlabId) {
+        String id = sourceSlabId.substring(0, sourceSlabId.length() - "_halfslab".length()) + "_vertical_slab";
+        DeferredBlock<VerticalSlabBlock> block = BLOCKS.registerBlock(id,
+                VerticalSlabBlock::new,
+                () -> BlockBehaviour.Properties.ofFullCopy(parentBlockForVariant(sourceSlabId)));
+        BLOCKS_BY_ID.put(id, block);
+    }
+
     private static void registerBasicBlock(String id) {
         DeferredBlock<Block> block = BLOCKS.registerSimpleBlock(id, props -> configureProperties(id, props));
         BLOCKS_BY_ID.put(id, block);
     }
 
     private static void registerSlab(String id) {
-        DeferredBlock<SlabBlock> block = BLOCKS.registerBlock(id, SlabBlock::new, props -> configureProperties(id, props));
+        DeferredBlock<SlabBlock> block = BLOCKS.registerBlock(id,
+                SlabBlock::new,
+                () -> BlockBehaviour.Properties.ofFullCopy(parentBlockForVariant(id)));
         BLOCKS_BY_ID.put(id, block);
     }
 
     private static void registerStairs(String id) {
         DeferredBlock<StairBlock> block = BLOCKS.registerBlock(id,
-                props -> new StairBlock(stairsBaseState(id), props),
-                props -> configureProperties(id, props));
+                props -> isGlassStairId(id)
+                        ? new GlassStairBlock(parentBlockForVariant(id).defaultBlockState(), props)
+                        : new StairBlock(parentBlockForVariant(id).defaultBlockState(), props),
+                () -> BlockBehaviour.Properties.ofFullCopy(parentBlockForVariant(id)));
         BLOCKS_BY_ID.put(id, block);
+    }
+
+    private static boolean isGlassStairId(String id) {
+        return id.equals("glass_stairs") || id.endsWith("_stained_glass_stairs");
     }
 
     private static void registerWall(String id) {
-        DeferredBlock<WallBlock> block = BLOCKS.registerBlock(id, WallBlock::new, props -> configureProperties(id, props));
+        DeferredBlock<WallBlock> block = BLOCKS.registerBlock(id,
+                WallBlock::new,
+                () -> BlockBehaviour.Properties.ofFullCopy(parentBlockForVariant(id)));
         BLOCKS_BY_ID.put(id, block);
     }
 
-    private static BlockState stairsBaseState(String id) {
-        if (id.contains("_wool_")) return Blocks.WOOL.pick(DyeColor.WHITE).defaultBlockState();
-        if (id.startsWith("glass_") || id.contains("_stained_glass_")) return Blocks.GLASS.defaultBlockState();
-        return Blocks.STONE.defaultBlockState();
+    /**
+     * Returns the real full-block material parent for every WEM building shape.
+     *
+     * <p>This is intentionally the single source of truth for slabs, stairs,
+     * walls and WEM vertical slabs. Shape blocks no longer approximate material
+     * properties from their ID. They copy the actual parent block instead.</p>
+     */
+    private static Block parentBlockForVariant(String variantId) {
+        String materialId = materialIdFromVariant(variantId);
+
+        DeferredBlock<? extends Block> wemParent = BLOCKS_BY_ID.get(materialId);
+        if (wemParent != null) {
+            return wemParent.get();
+        }
+
+        if (materialId.equals("glass")) {
+            return Blocks.GLASS;
+        }
+
+        if (materialId.endsWith("_stained_glass")) {
+            return Blocks.STAINED_GLASS.pick(dyeColorFromLegacyMaterial(materialId, "_stained_glass"));
+        }
+
+        if (materialId.endsWith("_wool")) {
+            return Blocks.WOOL.pick(dyeColorFromLegacyMaterial(materialId, "_wool"));
+        }
+
+        if (materialId.endsWith("_concrete")) {
+            return Blocks.CONCRETE.pick(dyeColorFromLegacyMaterial(materialId, "_concrete"));
+        }
+
+        if (materialId.endsWith("_terracotta")) {
+            return Blocks.DYED_TERRACOTTA.pick(dyeColorFromLegacyMaterial(materialId, "_terracotta"));
+        }
+
+        throw new IllegalStateException("No parent block mapping for WEM building variant: "
+                + variantId + " (material " + materialId + ")");
+    }
+
+    private static String materialIdFromVariant(String variantId) {
+        if (variantId.endsWith("_halfslab")) {
+            return variantId.substring(0, variantId.length() - "_halfslab".length());
+        }
+        if (variantId.endsWith("_vertical_slab")) {
+            return variantId.substring(0, variantId.length() - "_vertical_slab".length());
+        }
+        if (variantId.endsWith("_stairs")) {
+            return variantId.substring(0, variantId.length() - "_stairs".length());
+        }
+        if (variantId.endsWith("_wall")) {
+            return variantId.substring(0, variantId.length() - "_wall".length());
+        }
+        return variantId;
+    }
+
+    private static DyeColor dyeColorFromLegacyMaterial(String materialId, String suffix) {
+        String color = materialId.substring(0, materialId.length() - suffix.length());
+
+        // Historical WEM registry IDs predate the vanilla light_blue/light_gray names.
+        if (color.equals("lightblue")) color = "light_blue";
+        if (color.equals("silver")) color = "light_gray";
+
+        return switch (color) {
+            case "white" -> DyeColor.WHITE;
+            case "orange" -> DyeColor.ORANGE;
+            case "magenta" -> DyeColor.MAGENTA;
+            case "light_blue" -> DyeColor.LIGHT_BLUE;
+            case "yellow" -> DyeColor.YELLOW;
+            case "lime" -> DyeColor.LIME;
+            case "pink" -> DyeColor.PINK;
+            case "gray" -> DyeColor.GRAY;
+            case "light_gray" -> DyeColor.LIGHT_GRAY;
+            case "cyan" -> DyeColor.CYAN;
+            case "purple" -> DyeColor.PURPLE;
+            case "blue" -> DyeColor.BLUE;
+            case "brown" -> DyeColor.BROWN;
+            case "green" -> DyeColor.GREEN;
+            case "red" -> DyeColor.RED;
+            case "black" -> DyeColor.BLACK;
+            default -> throw new IllegalStateException("Unknown WEM dye color in material ID: " + materialId);
+        };
     }
 
     private static BlockBehaviour.Properties configureProperties(String id, BlockBehaviour.Properties props) {

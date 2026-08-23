@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "minecraft:polished_granite"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:polished_granite_vertical_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "winnetriesexpansionmod:block/hedge_post",
+  "textures": {
+    "leaf": "minecraft:block/mangrove_leaves",
+    "log": "minecraft:block/mangrove_log"
+  }
+}

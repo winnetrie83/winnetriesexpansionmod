@@ -1,0 +1,18 @@
+# WEM developer helper: give all 16 vanilla 'concrete_powder' variants.
+# Gives one of each variant to the player executing the function.
+give @s minecraft:white_concrete_powder 1
+give @s minecraft:orange_concrete_powder 1
+give @s minecraft:magenta_concrete_powder 1
+give @s minecraft:light_blue_concrete_powder 1
+give @s minecraft:yellow_concrete_powder 1
+give @s minecraft:lime_concrete_powder 1
+give @s minecraft:pink_concrete_powder 1
+give @s minecraft:gray_concrete_powder 1
+give @s minecraft:light_gray_concrete_powder 1
+give @s minecraft:cyan_concrete_powder 1
+give @s minecraft:purple_concrete_powder 1
+give @s minecraft:blue_concrete_powder 1
+give @s minecraft:brown_concrete_powder 1
+give @s minecraft:green_concrete_powder 1
+give @s minecraft:red_concrete_powder 1
+give @s minecraft:black_concrete_powder 1

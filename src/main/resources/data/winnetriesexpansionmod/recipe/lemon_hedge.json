@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "hedges"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "fruits"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "winnetriesexpansionmod:lemon_leaves"
+    },
+    "W": {
+      "tag": "minecraft:oak_logs"
+    }
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:lemon_hedge",
+    "count": 2
+  }
+}

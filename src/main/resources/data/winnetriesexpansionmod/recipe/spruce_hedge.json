@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": "minecraft:spruce_leaves",
+    "W": "minecraft:spruce_log"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:spruce_hedge",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "terracotta_variants"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "V"
+  ],
+  "key": {
+    "V": "winnetriesexpansionmod:brown_terracotta_vertical_slab"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:brown_terracotta_halfslab",
+    "count": 1
+  }
+}

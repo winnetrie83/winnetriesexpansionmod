@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    },
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "marble"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "winnetriesexpansionmod:marblestone"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:marblestone_vertical_slab",
+    "count": 6
+  }
+}

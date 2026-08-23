@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    }
+  ],
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "winnetriesexpansionmod:cut_red_sandstone_vertical_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2.0,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "winnetriesexpansionmod:cut_red_sandstone_vertical_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

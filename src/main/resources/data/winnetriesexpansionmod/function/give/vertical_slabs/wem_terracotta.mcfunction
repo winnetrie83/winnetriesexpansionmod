@@ -1,0 +1,17 @@
+# Gives one of each wem terracotta vertical slab.
+give @s winnetriesexpansionmod:black_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:blue_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:brown_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:cyan_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:gray_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:green_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:lightblue_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:lime_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:magenta_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:orange_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:pink_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:purple_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:red_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:silver_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:white_terracotta_vertical_slab 1
+give @s winnetriesexpansionmod:yellow_terracotta_vertical_slab 1

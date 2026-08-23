@@ -1,0 +1,7 @@
+{
+  "parent": "winnetriesexpansionmod:block/hedge_post_extension",
+  "textures": {
+    "leaf": "minecraft:block/azalea_leaves",
+    "log": "minecraft:block/oak_log"
+  }
+}

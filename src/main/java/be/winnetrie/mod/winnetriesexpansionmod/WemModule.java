@@ -16,6 +16,9 @@ public enum WemModule {
     MARBLE("marble"),
     DREAD_STONE("dread_stone"),
     BLOOD_STONE("blood_stone"),
+    HEDGES("hedges"),
+    VERTICAL_SLABS("vertical_slabs"),
+    VANILLA_3D_BLOCKS("vanilla_3d_blocks"),
     FRUITS("fruits"),
     DRINKS("drinks");
 
@@ -64,12 +67,14 @@ public enum WemModule {
      * for content that is intentionally always enabled.
      */
     public static WemModule forContentId(String id) {
+        if (id.endsWith("_vertical_slab")) return VERTICAL_SLABS;
         if (id.startsWith("limestone")) return LIMESTONE;
         if (id.equals("orange") || id.equals("peach") || id.equals("pear") || id.equals("plum") || id.equals("lemon") || id.equals("cherry")
                 || id.endsWith("_sapling") || id.endsWith("_leaves") || id.endsWith("_hanging_fruit")) return FRUITS;
         if (id.startsWith("marblestone")) return MARBLE;
         if (id.startsWith("dread_stone")) return DREAD_STONE;
         if (id.startsWith("blood_stone")) return BLOOD_STONE;
+        if (id.endsWith("_hedge")) return HEDGES;
 
         if (id.endsWith("_bottle")) return DRINKS;
 
@@ -103,6 +108,18 @@ public enum WemModule {
     }
 
     public static boolean isContentEnabled(String id) {
+        // Every vertical slab is gated by Vertical Slabs. WEM-derived
+        // variants additionally follow the module that owns their source slab.
+        if (id.endsWith("_vertical_slab")) {
+            return isVerticalSlabEnabled(id);
+        }
+
+        // Fruit-tree hedges depend on both Hedges and Fruits. Vanilla-leaf hedges
+        // only depend on Hedges.
+        if (id.endsWith("_hedge")) {
+            return isHedgeEnabled(id);
+        }
+
         // Drinks have one extra dependency layer. A drink is always gated by the
         // Drinks module; drinks made from optional WEM fruit additionally require
         // the Fruits module. Apple juice intentionally remains independent.
@@ -112,6 +129,18 @@ public enum WemModule {
 
         WemModule module = forContentId(id);
         return module == null || WemConfig.isModuleEnabled(module);
+    }
+
+    public static boolean isVerticalSlabEnabled(String id) {
+        if (!WemConfig.isModuleEnabled(VERTICAL_SLABS)) return false;
+
+        String sourceId = id.substring(0, id.length() - "_vertical_slab".length()) + "_halfslab";
+        WemModule sourceModule = forContentId(sourceId);
+        return sourceModule == null || sourceModule == VERTICAL_SLABS || WemConfig.isModuleEnabled(sourceModule);
+    }
+
+    public static boolean isHedgeEnabled(String id) {
+        return WemConfig.isModuleEnabled(HEDGES);
     }
 
     public static boolean isDrinkEnabled(String id) {

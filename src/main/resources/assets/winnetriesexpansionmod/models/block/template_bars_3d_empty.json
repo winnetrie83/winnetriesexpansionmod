@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "#bars"
+  },
+  "elements": []
+}

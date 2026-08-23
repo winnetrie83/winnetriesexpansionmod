@@ -1,8 +1,176 @@
 {
-  "parent": "minecraft:block/slab_top",
+  "parent": "minecraft:block/block",
+  "ambient_occlusion": false,
   "textures": {
-    "bottom": "minecraft:block/glass",
-    "top": "minecraft:block/glass",
-    "side": "minecraft:block/glass"
-  }
+    "particle": "minecraft:block/glass",
+    "all": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#all",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#all",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#all",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#all",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#all",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#all",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        8,
+        -0.001
+      ],
+      "to": [
+        16,
+        9,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        8,
+        16
+      ],
+      "to": [
+        16,
+        9,
+        16.001
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.001,
+        8,
+        0
+      ],
+      "to": [
+        0,
+        9,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        8,
+        0
+      ],
+      "to": [
+        16.001,
+        9,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#all"
+        }
+      }
+    }
+  ]
 }

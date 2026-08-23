@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "minecraft:block/iron_bars",
+    "bars": "minecraft:block/iron_bars",
+    "edge": "minecraft:block/iron_bars"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        15,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bars",
+          "uv": [
+            7,
+            1,
+            9,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#bars",
+          "uv": [
+            9,
+            1,
+            7,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#bars",
+          "uv": [
+            7,
+            1,
+            9,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#bars",
+          "uv": [
+            9,
+            1,
+            7,
+            2
+          ]
+        },
+        "up": {
+          "texture": "#edge",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#edge",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        }
+      }
+    }
+  ]
+}

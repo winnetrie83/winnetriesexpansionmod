@@ -1,0 +1,9 @@
+# Gives one of each vanilla copper vertical slab.
+give @s winnetriesexpansionmod:cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:exposed_cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:weathered_cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:oxidized_cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:waxed_cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:waxed_exposed_cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:waxed_weathered_cut_copper_vertical_slab 1
+give @s winnetriesexpansionmod:waxed_oxidized_cut_copper_vertical_slab 1

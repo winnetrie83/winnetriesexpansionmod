@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": "minecraft:mangrove_leaves",
+    "W": "minecraft:mangrove_log"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:mangrove_hedge",
+    "count": 1
+  }
+}

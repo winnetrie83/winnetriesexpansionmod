@@ -1,0 +1,11 @@
+{
+  "loader": "neoforge:conditional",
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vanilla_3d_blocks"
+    }
+  ],
+  "fallback": "winnetriesexpansionmod:block/vanilla_flat/exposed_copper_bars_n1e1s0w0",
+  "parent": "winnetriesexpansionmod:block/vanilla_3d/exposed_copper_bars_n1e1s0w0_u1d0"
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "vertical_slabs"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B",
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": "minecraft:waxed_exposed_cut_copper"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:waxed_exposed_cut_copper_vertical_slab",
+    "count": 6
+  }
+}

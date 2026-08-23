@@ -8,15 +8,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "AA",
-    "B "
+    "AAA",
+    "ABA",
+    "AAA"
   ],
   "key": {
-    "A": "minecraft:clay",
+    "A": "minecraft:clay_ball",
     "B": "minecraft:blue_dye"
   },
   "result": {
-    "id": "winnetriesexpansionmod:blue_stained_clay",
-    "count": 2
+    "id": "winnetriesexpansionmod:blue_stained_clayball",
+    "count": 8
   }
 }

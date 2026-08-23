@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "winnetriesexpansionmod:module_enabled",
+      "module": "hedges"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": "minecraft:pale_oak_leaves",
+    "W": "minecraft:pale_oak_log"
+  },
+  "result": {
+    "id": "winnetriesexpansionmod:pale_oak_hedge",
+    "count": 1
+  }
+}
